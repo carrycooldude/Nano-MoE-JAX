@@ -1,0 +1,35 @@
+:root {
+  --ifm-color-primary: #2d6a4f;
+  --ifm-color-primary-dark: #265e45;
+  --ifm-color-primary-darker: #235941;
+  --ifm-color-primary-darkest: #1d4935;
+  --ifm-color-primary-light: #347659;
+  --ifm-color-primary-lighter: #377b5d;
+  --ifm-color-primary-lightest: #408b6a;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #40916c;
+  --ifm-color-primary-dark: #3a8362;
+  --ifm-color-primary-darker: #377c5d;
+  --ifm-color-primary-darkest: #2d664d;
+  --ifm-color-primary-light: #469f76;
+  --ifm-color-primary-lighter: #49a67b;
+  --ifm-color-primary-lightest: #55b58a;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.hero__title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.hero__subtitle {
+  font-size: 1.3rem;
+  opacity: 0.85;
+}
