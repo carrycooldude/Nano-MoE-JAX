@@ -24,3 +24,8 @@ data/
 # OS
 .DS_Store
 Thumbs.db
+
+# Docusaurus
+docs/build/
+docs/node_modules/
+docs/.docusaurus/
