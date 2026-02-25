@@ -31,6 +31,8 @@ Token Embedding + Positional Embedding
     ↓
 LayerNorm → Linear Head → Logits
 ```
+<img width="942" height="1930" alt="image" src="https://github.com/user-attachments/assets/61c93464-e2c3-4fac-a089-5ce327fdec21" />
+
 
 ### Key Features
 
